@@ -1,1 +1,1 @@
-# rural-studio-casestudy
+# Rural Studio Case Study
