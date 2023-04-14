@@ -1,3 +1,121 @@
+/* Rural Studio CSS Docment */
+
+@import url("https://use.typekit.net/yhe5lex.css");
+
+
+
+html {
+    --rust: #a8503b;
+    --dark-grey: #545454;
+    --light-cream: #fcfaf5;
+    --white: #fff;
+    --font-sans-serif: "franklin-gothic-urw", sans-serif;
+    --font-serif: "itc-galliard", serif;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: var(--dark-grey);
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 75rem;
+  margin: auto;
+  padding: 0 2rem;
+}
+.container--main-section {
+    max-width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-sans-serif);
+  line-height: 1.1;
+  color: var(--dark-grey);
+}
+h1 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+a {
+  text-decoration: none;
+}
 img {
     width: 50%;
+}
+img-section {
+  display: block;
+  max-width: 100%;
+}
+
+/* SECTION BLOCKS */
+
+.main-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 700px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.main-section-container--dark {
+  background-image: url(http://ruralstudio.org/wp-content/uploads/2019/08/front-porch-initiative.jpg);
+  position: relative;
+  margin: auto;
+  inset: 0px auto auto 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.copy-container {
+    max-width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.main-section__text {
+  padding-top: 70px;
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+}
+h2.section-text__intro {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+h2.section-text--white, .section-text--white, .arrow-link--white {
+  color: white;
+}
+.main-section__p {
+    font-family: itc-galliard,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.arrow-link {
+  font-family: var(--font-sans-serif);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
 }
