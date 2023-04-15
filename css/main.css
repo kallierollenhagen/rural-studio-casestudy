@@ -95,7 +95,16 @@ img {
 .logo {
     width: 5rem;
     padding: 0;
-  }
+}
+.scroll-arrow {
+    background-color: gray;
+    /* change to transparent */
+    text-align: center;
+}
+.scroll-icon {
+    padding: 1rem 0;
+    margin: 0;
+}
 
 /* SECTION BLOCKS */
 
