@@ -2,15 +2,15 @@
 
 @import url("https://use.typekit.net/yhe5lex.css");
 
-
-
-html {
+:root {
     --rust: #a8503b;
     --dark-grey: #545454;
     --light-cream: #fcfaf5;
     --white: #fff;
     --font-sans-serif: "franklin-gothic-urw", sans-serif;
     --font-serif: "itc-galliard", serif;
+}
+html {
     box-sizing: border-box;
 }
 *, *:before, *:after {
