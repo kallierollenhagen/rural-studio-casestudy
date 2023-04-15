@@ -59,6 +59,7 @@ h2 {
 }
 h2.white-font {
   color: white;
+  background-color: #ccc;
 }
 a {
   text-decoration: none;
@@ -78,6 +79,23 @@ img {
     border: 1px solid #ccc;
     overflow-x: auto;
 }
+.site-header {
+    background-color: gray;
+    /* change to transparent */
+}
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 85%;
+    height: 100%;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+.logo {
+    width: 5rem;
+    padding: 0;
+  }
 
 /* SECTION BLOCKS */
 
