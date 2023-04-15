@@ -11,21 +11,40 @@
 </head>
 
 <body>
+    <div class="container">
     <h1>Web Components Go Here</h1>
 
     <h2>Typography Defaults</h2>
 
     <article class="component">
         <h3 class="component__name">Body</h3>
-        <img 
-            srcset="images/text-block__on-lite--paragraph.png 2x" 
-            src="images/text-block__on-lite--paragraph.png" 
-            alt="body screenshot"
-        />
+        <div class="component__img">
+            <img 
+                srcset="images/text-block__on-lite--paragraph.png 2x" 
+                src="images/text-block__on-lite--paragraph.png" 
+                alt="body screenshot"
+            />
+        </div>
         <div class="component__code">
             <p>Rural Studio® is an off-campus design-build program, rooted in Hale County and part of the School of Architecture, Planning and Landscape Architecture of Auburn University. Our core mission is the education of our students, coupled with research on sustainable, healthful rural living through both housing and the vital systems we foster to ensure our communities thrive. We are committed to cultivating students who are both local architects and citizens of the world.</p>
         </div>
     </article>
 
+    <article class="component">
+        <h3 class="component__name">Headings (h1, h2, h3, h4, ...)</h3>
+        <div class="component__img">
+            <img srcset="images/main__hero--title.png 2x" src="images/main__hero--title.png" alt="header screenshot"/>
+            <img srcset="images/text-block__on-lite--header2.png 2x" src="images/text-block__on-lite--header2.png" alt="header screenshot"/>
+            <img srcset="images/text-block__on-dark--header.png 2x" src="images/text-block__on-dark--header.png" alt="header screenshot"/>
+            <img srcset="images/projects-grid__card-caption.png 2x" src="images/projects-grid__card-caption.png" alt="header screenshot"/>
+        </div>
+        <div class="component__code">
+            <h1>Educating Citizen Architects</h1>
+            <h2>News From The Field</h2>
+            <h2 class="white-font">Front Porch Initiative</h2>
+            <h3>20K Projects</h3>
+        </div>
+    </article>
+</div>
 </body>
 </html>
