@@ -27,6 +27,9 @@ body {
   line-height: 1.3;
   margin-bottom: 30px;
 }
+.section-text--white {
+    color: var(--white);
+}
 .container {
   max-width: 75rem;
   margin: auto;
@@ -59,7 +62,6 @@ h2 {
 }
 h2.white-font {
   color: white;
-  background-color: #ccc;
 }
 .CTA-arrow-link {
     position: relative;
@@ -111,6 +113,9 @@ img {
     display: block;
     width: 100%;
 }
+.img--h-screenshot {
+    width: 250px;
+}
 
 /* COMPONENT STYLING */
 
@@ -145,6 +150,10 @@ img {
 .scroll-arrow {
     background-color: transparent;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .scroll-icon {
     padding: 1rem 0;
@@ -191,15 +200,6 @@ img {
   left: 0;
   overflow: hidden;
 }
-.main-section-container--dark {
-  background-image: url(http://ruralstudio.org/wp-content/uploads/2019/08/front-porch-initiative.jpg);
-  position: relative;
-  margin: auto;
-  inset: 0px auto auto 0px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-}
 .copy-container {
     max-width: 55rem;
     position: relative;
@@ -221,4 +221,7 @@ img {
 
 #section-1 {
     background-image: url(../images/home-paper-bg.jpg);
+}
+#section-2 {
+    background-image: url(../images/front-porch-initiative.jpg);
 }
