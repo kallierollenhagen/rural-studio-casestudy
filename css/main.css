@@ -225,3 +225,40 @@ img {
 #section-2 {
     background-image: url(../images/front-porch-initiative.jpg);
 }
+
+/* TOP POP-OUT NAV */
+
+/* nav wrap */ .primary-nav {
+
+}
+
+.menu-container {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: auto;
+    min-height: 100%;
+    padding: 150px 75px 50px;
+    background: #e8e8e8;
+}
+.main-nav__list {
+    display: block;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-line {
+    margin-bottom: 1.5rem;
+}
+.nav-line__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav__list li a {
+    font-family: var(--font-sans-serif);
+    color: var(--dark-grey);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
