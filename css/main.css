@@ -230,7 +230,12 @@ img {
 #section-2 {
     background-image: url(../images/front-porch-initiative.jpg);
 }
-
+#section-3 {
+    background-image: url(../images/home-paper-text-bg.jpg);
+}
+#section-4 {
+    background-image: url(../images/home-hands-bg.jpg);
+}
 /* MAIN PAGE HERO SECTION */
 
 .main-section--hero {
