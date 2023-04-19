@@ -52,6 +52,11 @@ h1 {
   font-size: 2.5rem;
   letter-spacing: 3px;
 }
+h1.hero {
+    color: var(--white);
+    padding: 0 25px;
+    margin: auto;
+}
 h2 {
     color: var(--rust);
     font-weight: 400;
@@ -226,11 +231,65 @@ img {
     background-image: url(../images/front-porch-initiative.jpg);
 }
 
+/* MAIN PAGE HERO SECTION */
+
+.main-section--hero {
+    min-height: unset;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(180deg,rgba(0,0,0,.3) 0,rgba(0,0,0,.05) 100%);
+}
+.flex-middle {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+}
+.video-wrapper {
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    background-image: url(img/Video-Still-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero__video {
+    width: 175vh;
+    height: 62vw;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+}
+.hero__video-toggle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border: 0;
+    margin: 5px;
+    cursor: pointer;
+    z-index: 4;
+    opacity: .7;
+    transition: opacity .3s;
+}
+.hero__video-toggle img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 /* TOP POP-OUT NAV */
 
-/* nav wrap */ .primary-nav {
-
-}
+/* nav wrap */ 
 
 .menu-container {
     position: absolute;
@@ -261,4 +320,22 @@ img {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: lighter;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
 }

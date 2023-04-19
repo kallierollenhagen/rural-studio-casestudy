@@ -70,8 +70,19 @@
         <div class="component__code">
             <header class="site-header">
                 <div class="container">
-                    <p class="logo"><a href="#"><img class="logo" src="../images/logos/RuralStudio_Wordmark_WHT.png" alt="Rural Studio logo"></a></p>
-                    <p class="site-header__menu-icon"><a href="#" class="nav-link"><i class="fa-sharp fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></a></p>
+                    <div class="top-branding">
+                        <p class="logo"><a href="#"><img class="logo" src="../images/logos/RuralStudio_Wordmark_WHT.png" alt="Rural Studio logo"></a></p>
+                        <p class="site-header__menu-icon"><a href="#" class="nav-link"><i class="fa-sharp fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></a></p>
+                    </div>
+                   <!-- TEST--> 
+                   <!--
+                    <a class="nav-trigger" href="#0">
+                        <i class="fa-solid fa-xmark" style="color: #cecece;"></i>
+                        <span class="site-header__menu-icon is-clicked"> == $0
+                            ::before
+                            ::after
+                        </span>
+                    </a> -->
                 </div>
             </header>
 
@@ -88,10 +99,10 @@
         </div>
     </article>
 
+    
+    <!--footer-->
+
     <article class="component">
-
-<!--footer-->
-
         <h3 class="component__name">Footer</h3>
         <div class="component__img">
             <img srcset="images/full-footer.png 2x" src="images/full-footer.png" alt="footer screenshot"/>
@@ -206,8 +217,9 @@
 <div class="component__code">
     <div class="container">
         <nav class="primary-nav">
-            <div class="menu-container">
-                <ul class="main-nav__list">
+            <div class="menu-container" id="mySidenav">
+                <ul class="main-nav__list" id="main">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark" style="color: #cecece;"></i></a>
                     <li class="nav-line">
                         <div class="nav-line__wrapper">
                             <a href="#" class="nav-link nav-link--main">About</a>
@@ -251,12 +263,40 @@
                         </div>
                     </li>
                 </ul>
-            </div>
-        </nav>
+            </div><!--End Menu Container-->
+        </nav><!--end primary-nav container-->
     </div>
 </div>
-</section>
-</div>
+
+<!--MAIN PAGE HERO SECTION-->
+
+    <h3 class="component__name">Home Page | Hero section</h3>
+    <div class="component__img">
+        <img srcset="images/main__hero.png 2x" src="images/main__hero.png" alt="Main Hero screenshot"/>
+    </div>
+
+    <div class="component__code">
+        <section class="main-section main-section--hero">
+            <div class="container">
+                <div class="copy-container--hero">
+                    <div class="overlay">
+                        <div class="flex-middle">
+                            <h1 class="hero">EDUCATING CITIZEN ARCHITECTS</h1>
+                        </div>
+                        <div class="video-wrapper" style="background-image: url(https://ruralstudio.org/wp-content/themes/rural-studio/img/Video-Still-2.jpg);"> ==$0
+                            <iframe src="https://player.vimeo.com/video/685615652?background=1&amp;?autoplay=1&amp;loop=1&amp;autopause=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" class="hero__video" name="Background video of Rural Studio" title="Background video of Rural Studio" data-ready="true"></iframe>
+                        </div>
+                        <button class="hero__video-toggle">
+                            <img src="http://ruralstudio.org/wp-content/themes/rural-studio/img/icon_pause.svg" alt="Pause">
+                        </button>
+                        <div class="scroll-arrow">
+                            <p class="scroll-icon"><a href="#"><i class="fa-solid fa-angle-down fa-2xl" style="color: white;"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
       
 </div>
 </body>
