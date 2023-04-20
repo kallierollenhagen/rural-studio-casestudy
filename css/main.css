@@ -68,6 +68,14 @@ h2 {
 h2.white-font {
   color: white;
 }
+.h2--news {
+    padding: 0 20px;
+}
+.news__headline {
+    font-size: 1.5rem;
+    min-height: 6rem;
+    margin-bottom: 2rem;
+}
 .CTA-arrow-link {
     position: relative;
     display: inline-block;
@@ -206,12 +214,18 @@ img {
   overflow: hidden;
 }
 .copy-container {
-    max-width: 55rem;
+    max-width: 900px;
     position: relative;
     height: 100%;
-    margin: 0 auto;
     padding-top: 70px;
     z-index: 1;
+}
+.copy-container--news {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    min-height: 50vh;
 }
 .main-section .main-section__image--about {
     position: absolute;
@@ -220,6 +234,12 @@ img {
     transform: translateX(-50%);
     text-align: center;
     width: 900px;
+}
+.news__flex-container {
+    display: flex;
+}
+.news__column {
+    padding: 0 20px;
 }
 
 /* SECTION IMAGES */
