@@ -220,7 +220,7 @@ img {
     padding-top: 70px;
     z-index: 1;
 }
-.copy-container--news {
+.flex-container--column {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -255,6 +255,9 @@ img {
 }
 #section-4 {
     background-image: url(../images/home-hands-bg.jpg);
+}
+#section-5 {
+    background-image: url(../images/home-support-bg.jpg);
 }
 /* MAIN PAGE HERO SECTION */
 
