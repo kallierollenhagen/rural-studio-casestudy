@@ -143,13 +143,13 @@ img {
 .site-header {
     background-color: transparent;
 }
-.site-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.site-header--white {
+    background-color: #fcfaf6;
+}
+.site-header__container {
+    padding: 20px 0;
     max-width: 85%;
     height: 100%;
-    padding: 1rem 0;
     margin: 0 auto;
 }
 .logo {
