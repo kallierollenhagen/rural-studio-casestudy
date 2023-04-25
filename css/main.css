@@ -229,13 +229,23 @@ a.hover:hover:after {
     padding: 2rem 4rem;
     min-height: 50vh;
 }
-.main-section .main-section__image--about {
+.main-section__image {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+}
+.main-section__image--about {
+    bottom: 0;
+    width: 900px;
+}
+.main-section__image--work {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    width: 900px;
+    width: 650px;
 }
 .news__flex-container {
     display: flex;
