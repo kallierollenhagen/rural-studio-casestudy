@@ -49,8 +49,8 @@ h1, h2, h3, h4, h5 {
   font-weight: lighter;
 }
 h1 {
-  font-size: 2.5rem;
-  letter-spacing: 3px;
+    font-size: 3.5rem;
+    letter-spacing: .15em;
 }
 h1.hero {
     color: var(--white);
@@ -214,6 +214,9 @@ a.hover:hover:after {
   top: 0;
   left: 0;
   overflow: hidden;
+}
+.main-section--bottom {
+    height: 30vh;
 }
 .copy-container {
     max-width: 900px;
