@@ -162,7 +162,6 @@ a.hover:hover:after {
     position: absolute;
     bottom: 0;
     left: 50%;
-    /* transform: translateX(-50%); */
     opacity: 1;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -360,8 +359,7 @@ a.hover:hover:after {
 
 /* MENU TOGGLE SPAN FROM ERIC TERWAN https://codepen.io/erikterwan/pen/grOZxx */
 
-#menuToggle span
-{
+#menuToggle span {
   display: block;
   width: 33px;
   height: 4px;
@@ -376,35 +374,29 @@ a.hover:hover:after {
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
 /* MENU POPOUT */
 
-#menuToggle
-{
+#menuToggle {
   display: block;
   position: absolute;
   top: 35px;
@@ -450,8 +442,7 @@ a.hover:hover:after {
     transform: translate(100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
   transform: none;
   opacity: 1;
 }
