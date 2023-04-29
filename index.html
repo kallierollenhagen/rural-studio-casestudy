@@ -14,20 +14,19 @@
 
 <!--SITE HEADER-->
 
-<header class="site-header--white">
+<header class="site-header">
     <div class="site-header__container site-header__container--white">
         <div class="top-branding">
-            <a href="#"><img class="logo" src="images/logos/RuralStudio_Wordmark_rust.png" alt="Rural Studio logo"></a>
+            <a href="#"><img class="logo" src="images/logos/RuralStudio_Wordmark_WHT.png" alt="Rural Studio logo"></a>
         </div>
-    </div>
-    <span>
-        <a href="javascript:void(0)" class="closebtn" onclick="openNav()"><i class="fa-solid fa-bars" style="color: #797e86;"></i></a>
-    </span>
-    <div class="container">
-        <nav class="primary-nav">
-            <div class="menu-container" id="mySidenav">
-                <ul class="main-nav__list, sidenav" id="main">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark" style="color: #cecece;"></i></a>
+
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <ul id="menu">
                     <li class="nav-line">
                         <div class="nav-line__wrapper">
                             <a href="#" class="nav-link nav-link--main">About</a>
@@ -71,7 +70,7 @@
                         </div>
                     </li>
                 </ul>
-            </div><!--End Menu Container-->
+            </div><!--End Menu Toggle-->
         </nav><!--end primary-nav container-->
     </div>
 </header>
