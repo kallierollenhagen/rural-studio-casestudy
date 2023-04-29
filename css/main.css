@@ -250,7 +250,9 @@ a.hover:hover:after {
     width: 650px;
 }
 .news__flex-container {
-    display: flex;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
 }
 .news__column {
     padding: 0 20px;
