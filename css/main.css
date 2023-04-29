@@ -273,6 +273,9 @@ a.hover:hover:after {
     background-image: url(../images/home-hands-bg.jpg);
 }
 #section-5 {
+    background-image: url(../images/home-paper-bg.jpg);
+}
+#section-6 {
     background-image: url(../images/home-support-bg.jpg);
 }
 /* MAIN PAGE HERO SECTION */
